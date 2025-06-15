@@ -30,14 +30,16 @@ int main()
 
 
     Student s;
-    s.addCourse();
-    s.addCourse();
+//    s.addCourse();
+//    s.addCourse();
     s.print();
 
     cout << "Total Units: " << s.calculateTotalUnits() << endl;
 
 
-
+UniversitySystem u1;
+u1.addStudent();
+u1.displayStudentInfo();
 
 
 
